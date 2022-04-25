@@ -17,13 +17,13 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         if (/webp/g.test(mime)) out = await webp2png(img)
         else if (/image/g.test(mime)) out = await uploadImage(img)
         else if (/video/g.test(mime)) out = await uploadFile(img)
-        stiker = await sticker(false, out, global.packname, global.author)
+        stiker = await sticker(false, out, global.novak, global.bot)
       } catch (e) {
         console.error(e)
-        stiker = await sticker(img, false, global.packname, global.author)
+        stiker = await sticker(img, false, global.novak, global.bot)
       }
     } else if (args[0]) {
-      if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
+      if (isUrl(args[0])) stiker = await sticker(false, args[0], global.novak, global.bot)
       else return m.reply('*❰ ⚠️ ❱ Link (enlace) invalido...*\n\n*❰ ❗️ ❱ Inserte un link de una imagen de google en terminación .jpg!*')
     }
   } catch (e) {
