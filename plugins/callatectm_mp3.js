@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Jesucristo|jesucristo|Jesús|jesús|Auronplay|Auron|Dios/ 
+handler.customPrefix = /callate|ctm|calla mierda|conchatumare|Aconchatumadre|calla mierda|callateee
 handler.command = new RegExp
 module.exports = handler
