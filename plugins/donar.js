@@ -3,22 +3,8 @@
 let handler = async m => m.reply(`
 *┏ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
 *┇                         「 DONAR 」*  
-*┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
-*┇❖ Colaborador en el desarrollo*
-*┇ de GataBot Por Gata Dios* 😸
-*┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
-*┃❖ Hola persona hermosa 💙*
-*┃👉 Aquí tienes algunos datos*
-*┃ para que puedas apoyar <3*
-*┃*
-*┃ -   CLABE: 646180192175788481* 
-*┃ -   BANCO: STP* 
-*┃ -   BENEFICIARIO: JOSE SOBRINO* 
-*┃ -   CONCEPTO: APOYO*  
-*┃➤ PayPal: https://www.paypal.me/TheShadowBrokers133*
-*┃❖ Contáctame si necesitas otros*
-*┃datos y para darte las gracias <3*
-*┃❖ wa.me/5219996125657*
+A nombre de Bruuce Wayne 🦇
+
 *┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
 `.trim()) 
 //PUEDES AGREGAR TUS DATOS, PERO NO QUITES LOS QUE YA ESTÁN PUESTOS
